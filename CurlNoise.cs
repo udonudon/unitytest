@@ -246,13 +246,13 @@ public class CurlNoise : MonoBehaviour {
 
 
 	void Start () {
-		
+		InitializeIfNeeded();
 	}
 	
 	
 	void LateUpdate () {
 
-		InitializeIfNeeded();
+		
 		//int length = ParticleSystem.GetParticles(particles);
 		int length=psystem.GetParticles(particles);
 		int i=0;
