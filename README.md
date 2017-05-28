@@ -9,4 +9,4 @@ unity3d
 
 -double pendulum simulator 
 
--curl noise (using simplex noise, not sure if it is correct)
+-curl noise 3D(using simplex noise, not sure if it is correct)
